@@ -1,0 +1,54 @@
+/*Yorum satiri */
+
+* {
+  color: rgb(12, 238, 12);
+}
+
+h1 {
+  color: red;
+}
+p {
+  background-color: grey;
+  border: 5px solid rgb(253, 166, 3);
+}
+.div-external {
+  width: 400px;
+  background-color: brown;
+  border-style: dashed dashed solid solid;
+  border-radius: 15px;
+  border-color: rgb(10, 214, 146, 0.5);
+  height: 100px;
+  margin: 20px 30px;
+}
+.block {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  margin-top: 2px 4px;
+  border: 10px solid rgb(163, 179, 16);
+  border-width: 4px;
+  margin-bottom: 10px;
+  /*display: inline; block satiri inline'a cevirir*/
+}
+span {
+  display: block;
+  background-color: rgb(26, 194, 216);
+  width: 100px;
+  height: 50px;
+  margin-top: 2px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  /*block elemt gibi davrandi */
+}
+.ortalama {
+    background-color: chocolate;
+    text-align: center;
+    padding: 30px;
+}
+.ortalama div { 
+    width: 100px;
+    background-color: black;
+    margin: auto;
+}
